@@ -1,11 +1,19 @@
 import React from "react";
 import logo from "./logo.svg";
-import { Counter } from "./features/offers/Offers";
+import { Offers } from "./screens/Offers";
 import "./App.css";
-import './custom.scss';
-
+import './custom-bootstrap.scss';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 function App() {
-  return <Counter />;
+  return <BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Offers />}/>
+  </Routes>
+</BrowserRouter>;
 }
 
 export default App;

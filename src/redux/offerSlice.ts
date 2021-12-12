@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { RootState, AppThunk } from "../../redux/store";
-import { fetchOffers } from "../../services/offerService";
-import { SingleOffer } from "../../models/singleOffer";
+import { RootState, AppThunk } from "./store";
+import { fetchOffers } from "../services/offerService";
+import { SingleOffer } from "../models/Offer";
 export interface OffersState {
   loading: boolean;
   offers: SingleOffer[];

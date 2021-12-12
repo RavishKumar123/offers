@@ -1,7 +1,6 @@
 import Axios from "../common/utils/Axios";
 import { AxiosResponse } from "axios";
-import { SingleOffer } from "../models/singleOffer";
-import axios from "axios";
+import { SingleOffer } from "../models/Offer";
 
 /**
  * Gets all offers

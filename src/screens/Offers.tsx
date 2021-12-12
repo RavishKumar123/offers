@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Spinner } from "react-bootstrap";
-import { useAppSelector, useAppDispatch } from "../../common/hooks";
-import { getOffers } from "./offerSlice";
-import { OfferCard, Pagination } from "../../components";
-import { SingleOffer } from "../../models/singleOffer";
-import logo from "../../assets/images/logo.gif"
-export function Counter() {
+import { useAppSelector, useAppDispatch } from "../common/hooks";
+import { getOffers } from "../redux/offerSlice";
+import { OfferCard, Pagination } from "../components";
+import { SingleOffer } from "../models/Offer";
+import Header from "../layout/header";
+export function Offers() {
   const dispatch = useAppDispatch();
+  const offersPerPage: number = 12;
   const offers = useAppSelector((state) => state.offer.offers);
   const loading = useAppSelector((state) => state.offer.loading);
-  const [offersPerPage, setOffersPerPage] = useState<number>(12);
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [currentOffers, setcurrentOffers] = useState<SingleOffer[]>([]);
   const pageNumbers: number[] = [];
@@ -36,17 +36,9 @@ export function Counter() {
   }, [offers]);
   return (
     <Container>
-      <Row className="my-4 m-auto">
-        <Col>
-        <div className="d-flex align-items-center">
-          <h1 className="text-uppercase logo-heading">O<span className="">ff</span>ers</h1>
-        <img src={logo} width={100} alt="Christmas Offers"/>
-
-        </div>
-        </Col>
-      </Row>
+      <Header />
       <Row>
-      <Col className="text-end">
+        <Col className="text-end">
           <div className="w-auto float-end">
             <Pagination
               page={currentPage}
@@ -60,7 +52,7 @@ export function Counter() {
         {!loading &&
           currentOffers.map((offer: any) => {
             return (
-              <Col className="my-2" xs={12} md={3} >
+              <Col className="my-2" xs={12} md={3}>
                 <OfferCard offer={offer}></OfferCard>
               </Col>
             );

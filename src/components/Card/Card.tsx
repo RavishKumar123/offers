@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Button, Tooltip, OverlayTrigger } from "react-bootstrap";
-import { SingleOffer } from "../../models/singleOffer";
+import { SingleOffer } from "../../models/Offer";
 import fallback from "../../assets/images/fallback.jpg";
 
 interface Props {
@@ -14,7 +14,11 @@ const OfferCard: React.FC<Props> = ({ offer }) => {
   );
   return (
     <Card className="shadow-lg p-3 mb-5 bg-white rounded">
-      <Card.Img variant="top" src={offer.image ? offer.image : fallback} className="w-100" />
+      <Card.Img
+        variant="top"
+        src={offer.image ? offer.image : fallback}
+        className="w-100"
+      />
       <Card.Body>
         <OverlayTrigger
           placement="top-start"
@@ -22,10 +26,12 @@ const OfferCard: React.FC<Props> = ({ offer }) => {
           overlay={renderTooltip}
         >
           <Card.Title className="heading-text-ellipsis">
-            {offer.name}
+            {offer.name ? offer.name : "No Name"}
           </Card.Title>
         </OverlayTrigger>
-        <span className="text-primary h2">{offer.price} <sup>€</sup></span>
+        <span className="text-primary h2">
+          {offer.price ? offer.price : "unavailable"} <sup>€</sup>
+        </span>
       </Card.Body>
     </Card>
   );
