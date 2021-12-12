@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Spinner } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { useAppSelector, useAppDispatch } from "../common/hooks";
 import { getOffers } from "../redux/offerSlice";
 import { OfferCard, Pagination, Loader } from "../components";
@@ -34,6 +34,7 @@ export default function Offers() {
   useEffect(() => {
     changePage(1);
   }, [offers]);
+
   return (
     <Container>
       <Row>
@@ -49,9 +50,9 @@ export default function Offers() {
       </Row>
       <Row>
         {!loading &&
-          currentOffers.map((offer: any) => {
+          currentOffers.map((offer: any, index: number) => {
             return (
-              <Col className="my-2" xs={12} md={3}>
+              <Col className="my-2" xs={12} md={3} key={index}>
                 <OfferCard offer={offer}></OfferCard>
               </Col>
             );

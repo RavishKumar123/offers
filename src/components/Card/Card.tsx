@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button, Tooltip, OverlayTrigger } from "react-bootstrap";
+import { Card, Tooltip, OverlayTrigger } from "react-bootstrap";
 import { SingleOffer } from "../../models/Offer";
 import fallback from "../../assets/images/fallback.jpg";
 

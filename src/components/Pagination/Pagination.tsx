@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Card,
-  Button,
-  Tooltip,
-  OverlayTrigger,
-  Pagination as BootPagination,
-} from "react-bootstrap";
+import { Pagination as BootPagination } from "react-bootstrap";
 
 export interface Props {
   page: number;
@@ -23,7 +17,10 @@ const Pagination: React.FC<Props> = ({
       {page !== 1 && (
         <BootPagination.Prev onClick={() => handlePagination(page - 1)} />
       )}
-      <BootPagination.Item onClick={() => handlePagination(1)} active={page === 1}>
+      <BootPagination.Item
+        onClick={() => handlePagination(1)}
+        active={page === 1}
+      >
         {1}
       </BootPagination.Item>
       {page > 3 && <BootPagination.Ellipsis />}
@@ -32,12 +29,6 @@ const Pagination: React.FC<Props> = ({
           {page - 2}
         </BootPagination.Item>
       )}
-      {/* {page > 2 && (
-        <BootPagination.Item onClick={() => handlePagination(page - 1)}>
-          {page - 1}
-        </BootPagination.Item>
-      )} */}
-
       {page !== 1 && page !== totalPages && (
         <BootPagination.Item onClick={() => handlePagination(page)} active>
           {page}
@@ -54,7 +45,10 @@ const Pagination: React.FC<Props> = ({
         </BootPagination.Item>
       )}
       {page < totalPages - 2 && <BootPagination.Ellipsis />}
-      <BootPagination.Item onClick={() => handlePagination(totalPages)} active={page === totalPages}>
+      <BootPagination.Item
+        onClick={() => handlePagination(totalPages)}
+        active={page === totalPages}
+      >
         {totalPages}
       </BootPagination.Item>
       {page !== totalPages && (

@@ -1,5 +1,4 @@
-import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { RootState, AppThunk } from "./store";
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { fetchOffers } from "../services/offerService";
 import { SingleOffer } from "../models/Offer";
 export interface OffersState {
@@ -22,7 +21,6 @@ const initialState: OffersState = {
 export const getOffers = createAsyncThunk("offer/fetchOffers", async () => {
   const response = await fetchOffers();
   // The value we return becomes the `fulfilled` action payload
-  console.log(response, "resss");
   return response;
 });
 
@@ -39,12 +37,10 @@ export const offerSlice = createSlice({
         state.loading = true;
       })
       .addCase(getOffers.fulfilled, (state, action) => {
-        console.log(action.payload, "offers");
         state.loading = false;
         state.offers = action.payload;
       })
       .addCase(getOffers.rejected, (state, error) => {
-        console.log("Rejected", error.error.message);
         state.message = error.error.message;
         state.loading = false;
       });
