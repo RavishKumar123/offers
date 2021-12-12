@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Spinner } from "react-bootstrap";
 import { useAppSelector, useAppDispatch } from "../common/hooks";
 import { getOffers } from "../redux/offerSlice";
-import { OfferCard, Pagination } from "../components";
+import { OfferCard, Pagination, Loader } from "../components";
 import { SingleOffer } from "../models/Offer";
-import Header from "../layout/header";
-export function Offers() {
+export default function Offers() {
   const dispatch = useAppDispatch();
   const offersPerPage: number = 12;
   const offers = useAppSelector((state) => state.offer.offers);
   const loading = useAppSelector((state) => state.offer.loading);
+  const message = useAppSelector((state) => state.offer.message);
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [currentOffers, setcurrentOffers] = useState<SingleOffer[]>([]);
   const pageNumbers: number[] = [];
@@ -36,7 +36,6 @@ export function Offers() {
   }, [offers]);
   return (
     <Container>
-      <Header />
       <Row>
         <Col className="text-end">
           <div className="w-auto float-end">
@@ -57,15 +56,11 @@ export function Offers() {
               </Col>
             );
           })}
-        {!loading && currentOffers.length === 0 && (
+        {!message && !loading && currentOffers.length === 0 && (
           <h3 className="m-auto text-center">No Offers Found</h3>
         )}
-        {loading && (
-          <h3 className="m-auto text-center">
-            Loading Offers
-            <Spinner animation="border" className="mx-3" />
-          </h3>
-        )}
+        {message && <h3 className="text-center text-danger">{message}</h3>}
+        {loading && <Loader message="Loading Offers" />}
       </Row>
       <Row className="my-4 m-auto">
         <Col className="text-end">
