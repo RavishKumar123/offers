@@ -1,15 +1,15 @@
-.heading-text-ellipsis {  
-    text-overflow: ellipsis;
-    display: block;
-    overflow: hidden;
-    white-space: nowrap;
-  }
+.heading-text-ellipsis {
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+}
 
-  body{
-    font-family: 'Roboto Condensed' !important
-  }
+body {
+  font-family: "Roboto Condensed" !important;
+}
 
-  .logo-heading{
-    border-bottom: 2px double #d1d4db;
-    height: 43px;
-  }
+.logo-heading {
+  /* border-bottom: 2px  double #d1d4db; */
+  height: 43px;
+}

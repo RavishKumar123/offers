@@ -1,0 +1,3774 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test <Pagination /> component renders the component from the beginning 1`] = `
+LoadedCheerio {
+  "0": Node {
+    "attribs": Object {
+      "class": "pagination",
+    },
+    "children": Array [
+      Node {
+        "attribs": Object {
+          "class": "paginationWrapper",
+        },
+        "children": Array [
+          Node {
+            "attribs": Object {
+              "class": "pageItem active",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "1",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "2",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {
+                  "class": "pageItem",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "3",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Node {
+                  "attribs": Object {
+                    "class": "separator",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "...",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": Node {
+                    "attribs": Object {
+                      "class": "pageItem",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": "5",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Node {
+                      "attribs": Object {
+                        "class": "pageItem sides",
+                        "type": "button",
+                      },
+                      "children": Array [
+                        Node {
+                          "data": ">",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "pageItem",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "2",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "3",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {
+                  "class": "separator",
+                },
+                "children": Array [
+                  Node {
+                    "data": "...",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Node {
+                  "attribs": Object {
+                    "class": "pageItem",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "5",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": Node {
+                    "attribs": Object {
+                      "class": "pageItem sides",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": ">",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "pageItem active",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "1",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "pageItem",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "3",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "separator",
+              },
+              "children": Array [
+                Node {
+                  "data": "...",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {
+                  "class": "pageItem",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "5",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Node {
+                  "attribs": Object {
+                    "class": "pageItem sides",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": ">",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "2",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {
+                  "class": "pageItem active",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "1",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "separator",
+            },
+            "children": Array [
+              Node {
+                "data": "...",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "5",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {
+                  "class": "pageItem sides",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": ">",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "3",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {
+                  "class": "pageItem",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "2",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": Node {
+                  "attribs": Object {
+                    "class": "pageItem active",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "1",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "pageItem",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "5",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "pageItem sides",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": ">",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "separator",
+              },
+              "children": Array [
+                Node {
+                  "data": "...",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {
+                  "class": "pageItem",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "3",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": Node {
+                  "attribs": Object {
+                    "class": "pageItem",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "2",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Node {
+                    "attribs": Object {
+                      "class": "pageItem active",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": "1",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                  },
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "pageItem sides",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": ">",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "5",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {
+                  "class": "separator",
+                },
+                "children": Array [
+                  Node {
+                    "data": "...",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": Node {
+                  "attribs": Object {
+                    "class": "pageItem",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "3",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Node {
+                    "attribs": Object {
+                      "class": "pageItem",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": "2",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Node {
+                      "attribs": Object {
+                        "class": "pageItem active",
+                        "type": "button",
+                      },
+                      "children": Array [
+                        Node {
+                          "data": "1",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                  },
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": Node {
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+    },
+    "prev": null,
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": LoadedCheerio {
+    "0": Node {
+      "children": Array [
+        Node {
+          "attribs": Object {},
+          "children": Array [
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "head",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "body",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "body",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "head",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+          ],
+          "name": "html",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+}
+`;
+
+exports[`test <Pagination /> component renders the component from the end 1`] = `
+LoadedCheerio {
+  "0": Node {
+    "attribs": Object {
+      "class": "pagination",
+    },
+    "children": Array [
+      Node {
+        "attribs": Object {
+          "class": "paginationWrapper",
+        },
+        "children": Array [
+          Node {
+            "attribs": Object {
+              "class": "pageItem sides",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "<",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "1",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {
+                  "class": "separator",
+                },
+                "children": Array [
+                  Node {
+                    "data": "...",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Node {
+                  "attribs": Object {
+                    "class": "pageItem",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "3",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": Node {
+                    "attribs": Object {
+                      "class": "pageItem",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": "4",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Node {
+                      "attribs": Object {
+                        "class": "pageItem active",
+                        "type": "button",
+                      },
+                      "children": Array [
+                        Node {
+                          "data": "5",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "pageItem",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "1",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "separator",
+              },
+              "children": Array [
+                Node {
+                  "data": "...",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {
+                  "class": "pageItem",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "3",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Node {
+                  "attribs": Object {
+                    "class": "pageItem",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "4",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": Node {
+                    "attribs": Object {
+                      "class": "pageItem active",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": "5",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "pageItem sides",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "<",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "separator",
+            },
+            "children": Array [
+              Node {
+                "data": "...",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "3",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {
+                  "class": "pageItem",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "4",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Node {
+                  "attribs": Object {
+                    "class": "pageItem active",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "5",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "1",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {
+                  "class": "pageItem sides",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "<",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "pageItem",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "3",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "4",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {
+                  "class": "pageItem active",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "5",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "separator",
+              },
+              "children": Array [
+                Node {
+                  "data": "...",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {
+                  "class": "pageItem",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "1",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": Node {
+                  "attribs": Object {
+                    "class": "pageItem sides",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "<",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "pageItem",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "4",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "pageItem active",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "5",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "3",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {
+                  "class": "separator",
+                },
+                "children": Array [
+                  Node {
+                    "data": "...",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": Node {
+                  "attribs": Object {
+                    "class": "pageItem",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "1",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Node {
+                    "attribs": Object {
+                      "class": "pageItem sides",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": "<",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                  },
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "pageItem active",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "5",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "4",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {
+                  "class": "pageItem",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "3",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": Node {
+                  "attribs": Object {
+                    "class": "separator",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "...",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Node {
+                    "attribs": Object {
+                      "class": "pageItem",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": "1",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Node {
+                      "attribs": Object {
+                        "class": "pageItem sides",
+                        "type": "button",
+                      },
+                      "children": Array [
+                        Node {
+                          "data": "<",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                  },
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": Node {
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+    },
+    "prev": null,
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": LoadedCheerio {
+    "0": Node {
+      "children": Array [
+        Node {
+          "attribs": Object {},
+          "children": Array [
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "head",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "body",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "body",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "head",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+          ],
+          "name": "html",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+}
+`;
+
+exports[`test <Pagination /> component renders the component from the middle 1`] = `
+LoadedCheerio {
+  "0": Node {
+    "attribs": Object {
+      "class": "pagination",
+    },
+    "children": Array [
+      Node {
+        "attribs": Object {
+          "class": "paginationWrapper",
+        },
+        "children": Array [
+          Node {
+            "attribs": Object {
+              "class": "pageItem sides",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "<",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "1",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {
+                  "class": "pageItem",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "2",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Node {
+                  "attribs": Object {
+                    "class": "pageItem active",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "3",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": Node {
+                    "attribs": Object {
+                      "class": "pageItem",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": "4",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Node {
+                      "attribs": Object {
+                        "class": "pageItem",
+                        "type": "button",
+                      },
+                      "children": Array [
+                        Node {
+                          "data": "5",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Node {
+                        "attribs": Object {
+                          "class": "pageItem sides",
+                          "type": "button",
+                        },
+                        "children": Array [
+                          Node {
+                            "data": ">",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "button",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                          "type": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                          "type": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "pageItem",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "1",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "2",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {
+                  "class": "pageItem active",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "3",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Node {
+                  "attribs": Object {
+                    "class": "pageItem",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "4",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": Node {
+                    "attribs": Object {
+                      "class": "pageItem",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": "5",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Node {
+                      "attribs": Object {
+                        "class": "pageItem sides",
+                        "type": "button",
+                      },
+                      "children": Array [
+                        Node {
+                          "data": ">",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "pageItem sides",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "<",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "pageItem",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "2",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "pageItem active",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "3",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {
+                  "class": "pageItem",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "4",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Node {
+                  "attribs": Object {
+                    "class": "pageItem",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "5",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": Node {
+                    "attribs": Object {
+                      "class": "pageItem sides",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": ">",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "1",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {
+                  "class": "pageItem sides",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "<",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "pageItem active",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "3",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "4",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {
+                  "class": "pageItem",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "5",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Node {
+                  "attribs": Object {
+                    "class": "pageItem sides",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": ">",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "2",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {
+                  "class": "pageItem",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "1",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": Node {
+                  "attribs": Object {
+                    "class": "pageItem sides",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "<",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "pageItem",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "4",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "5",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {
+                  "class": "pageItem sides",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": ">",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "pageItem active",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "3",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {
+                  "class": "pageItem",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "2",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": Node {
+                  "attribs": Object {
+                    "class": "pageItem",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "1",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Node {
+                    "attribs": Object {
+                      "class": "pageItem sides",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": "<",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                  },
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "pageItem",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": "5",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "pageItem sides",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": ">",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "4",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {
+                  "class": "pageItem active",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "3",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": Node {
+                  "attribs": Object {
+                    "class": "pageItem",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "2",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Node {
+                    "attribs": Object {
+                      "class": "pageItem",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": "1",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Node {
+                      "attribs": Object {
+                        "class": "pageItem sides",
+                        "type": "button",
+                      },
+                      "children": Array [
+                        Node {
+                          "data": "<",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                  },
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+          Node {
+            "attribs": Object {
+              "class": "pageItem sides",
+              "type": "button",
+            },
+            "children": Array [
+              Node {
+                "data": ">",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "pageItem",
+                "type": "button",
+              },
+              "children": Array [
+                Node {
+                  "data": "5",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {
+                  "class": "pageItem",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "data": "4",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": Node {
+                  "attribs": Object {
+                    "class": "pageItem active",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "data": "3",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Node {
+                    "attribs": Object {
+                      "class": "pageItem",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": "2",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Node {
+                      "attribs": Object {
+                        "class": "pageItem",
+                        "type": "button",
+                      },
+                      "children": Array [
+                        Node {
+                          "data": "1",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": Node {
+                        "attribs": Object {
+                          "class": "pageItem sides",
+                          "type": "button",
+                        },
+                        "children": Array [
+                          Node {
+                            "data": "<",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "button",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                          "type": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                          "type": undefined,
+                        },
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "type": undefined,
+                      },
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                  },
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": Node {
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+    },
+    "prev": null,
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": LoadedCheerio {
+    "0": Node {
+      "children": Array [
+        Node {
+          "attribs": Object {},
+          "children": Array [
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "head",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "body",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "body",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "head",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+          ],
+          "name": "html",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+}
+`;
