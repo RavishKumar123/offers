@@ -1,4 +1,4 @@
-# Demo
+# Home Page
 ![alt text](./index.png)
 
 # Information Regarding 3rd Party Apis used in Project:
