@@ -1,5 +1,4 @@
 import offerReducer, { getOffers, OffersState } from "./offerSlice";
-
 import { SingleOffer } from "../models/Offer";
 
 const mockOffers: SingleOffer[] = [

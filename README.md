@@ -4,19 +4,19 @@
 # Information Regarding 3rd Party Apis used in Project:
 
 1. Redux Toolkit (@reduxjs/toolkit)
-    I have used Redux Toolkit because it aims to speed up Redux development by including Redux Core with the packages that they think are essential to build a Redux app. It is an opinionated derivative of Redux, with many best practice configurations for developers who want simple, fast and clean Redux code.
+   is used because it aims to speed up Redux development by including Redux Core with the packages that they think are essential to build a Redux app. It is an opinionated derivative of Redux, with many best practice configurations for developers who want simple, fast and clean Redux code.
 
 3. Enzymes
-   I have used it to write automated end to end tests, since we are using react version 17 the official enzyme adapter for react version 17 is not still released thats'y i have used 3rd party @wojtekmaj/enzyme-adapter-react-17 adapter to configure enzyme in our project.
+   is used to write automated end to end tests, since we are using react version 17 the official enzyme adapter for react version 17 is not still released thats'y i have used 3rd party @wojtekmaj/enzyme-adapter-react-17 adapter to configure enzyme in our project.
 
 4. Axios
-   I have used axios to call api's instead of default fetch() api because of many reasons including Axios has wide browser support and it performs automatic transforms of JSON data.
+   is used to call api's instead of default fetch() api because of many reasons including Axios has wide browser support and it performs automatic transforms of JSON data.
 
 4. React-Bootstrap 
-   I have used it becaause it provides us classes that help us build Responsive UI and also it contains premade classes of almost all css properties.
+   is used becaause it provides us classes that help us build Responsive UI and also it contains premade classes of almost all css properties.
 
 5. node-sass
-   I have used it to make our application support and run .scss files.
+   is used to make our application support and execute .scss files.
 
 
 # Note:

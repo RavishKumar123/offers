@@ -8,7 +8,7 @@ interface Props {
 //using memo() because It will rerender only when props change
 const Loader: React.FC<Props> = memo(({ message }) => (
   <h3 className="m-auto text-center">
-    {message}
+    {message ? message : "Loading..." }
     <Spinner animation="border" className="mx-3" />
   </h3>
 ));
