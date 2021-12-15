@@ -54,7 +54,7 @@ export default function Offers() {
         {!loading &&
           currentOffers.map((offer: any, index: number) => {
             return (
-              <Col className="my-2" xs={12} md={3} key={index}>
+              <Col className="my-2" xs={12} sm={6} md={4} lg={3} key={index}>
                 <OfferCard offer={offer}></OfferCard>
               </Col>
             );
