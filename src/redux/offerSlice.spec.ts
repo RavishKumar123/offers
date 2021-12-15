@@ -27,7 +27,7 @@ describe("offer reducer async actions", () => {
     });
   });
 
-  it("should loading to true", async () => {
+  it("should set loading to true", async () => {
     const action = { type: getOffers.pending.type };
     const state = offerReducer(initialState, action);
     expect(state).toEqual({

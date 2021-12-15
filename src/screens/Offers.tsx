@@ -7,9 +7,11 @@ import { SingleOffer } from "../models/Offer";
 export default function Offers() {
   const dispatch = useAppDispatch();
   const offersPerPage: number = 12;
-  const offers = useAppSelector((state) => state.offer.offers);
-  const loading = useAppSelector((state) => state.offer.loading);
-  const message = useAppSelector((state) => state.offer.message);
+  const offers: SingleOffer[] = useAppSelector((state) => state.offer.offers);
+  const loading: boolean = useAppSelector((state) => state.offer.loading);
+  const message: string | undefined = useAppSelector(
+    (state) => state.offer.message
+  );
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [currentOffers, setcurrentOffers] = useState<SingleOffer[]>([]);
   const pageNumbers: number[] = [];
